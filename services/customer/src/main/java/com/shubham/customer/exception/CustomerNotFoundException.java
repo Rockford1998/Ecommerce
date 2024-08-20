@@ -1,4 +1,4 @@
-package com.shubham.exception.customer;
+package com.shubham.customer.exception;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

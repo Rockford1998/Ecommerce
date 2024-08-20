@@ -1,2 +1,9 @@
-package com.shubham.customer.handler;public class ErrorResponse {
+package com.shubham.customer.handler;
+
+import java.util.Map;
+
+public record ErrorResponse(
+        Map<String, String> errors
+) {
+
 }
