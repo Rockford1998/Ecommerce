@@ -1,5 +1,8 @@
-package com.shubham.customer.customer;
+package com.shubham.customer.customer.mapper;
 
+import com.shubham.customer.customer.documents.Customer;
+import com.shubham.customer.customer.dto.CustomerRequest;
+import com.shubham.customer.customer.dto.CustomerResponse;
 import org.springframework.stereotype.Service;
 
 @Service

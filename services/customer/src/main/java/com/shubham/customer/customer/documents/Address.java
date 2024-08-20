@@ -1,4 +1,4 @@
-package com.shubham.customer.customer;
+package com.shubham.customer.customer.documents;
 
 import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;

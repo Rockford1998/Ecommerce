@@ -1,5 +1,6 @@
-package com.shubham.customer.customer;
+package com.shubham.customer.customer.dto;
 
+import com.shubham.customer.customer.documents.Address;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;
 
