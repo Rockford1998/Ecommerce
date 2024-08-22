@@ -1,5 +1,9 @@
 package com.shubham.customer.customer;
 
+import com.shubham.customer.customer.documents.Customer;
+import com.shubham.customer.customer.dto.CustomerRequest;
+import com.shubham.customer.customer.dto.CustomerResponse;
+import com.shubham.customer.customer.mapper.CustomerMapper;
 import com.shubham.customer.exception.CustomerNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang.StringUtils;

@@ -1,8 +1,10 @@
-package com.shubham.customer.customer;
+package com.shubham.customer.customer.controller;
 
+import com.shubham.customer.customer.dto.CustomerRequest;
+import com.shubham.customer.customer.dto.CustomerResponse;
+import com.shubham.customer.customer.CustomerService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
